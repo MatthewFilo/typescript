@@ -22,7 +22,6 @@ function TypingHeader({ text }: { text: string }) {
     return (
       <h1>
         {displayedText}
-        <span className="typing-cursor">█</span>
       </h1>
     );
   }

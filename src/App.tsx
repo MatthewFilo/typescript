@@ -1,13 +1,23 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
-import Home from './Home';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
+import Home from './components/taskbar/Home';
+import About from './components/taskbar/About';
+import Projects from './components/taskbar/Projects';
+import Contact from './components/taskbar/Contact';
 import TypingHeader from './TypingHeader';
 
+
 function App() {
+  const [currentStep, setCurrentStep] = useState(0);
+
+  useEffect(() => {
+    if (currentStep < 3) {
+      const timer = setTimeout(() => setCurrentStep(currentStep + 1), 1600); // Adjust the delay as needed
+      return () => clearTimeout(timer);
+    }
+  }, [currentStep]);
+
   return (
     <Router>
       <div className="App">
@@ -20,7 +30,9 @@ function App() {
           </ul>
         </nav>
         <header className="App-header">
-          <TypingHeader text="Matthew Filo" />
+          {currentStep >= 0 && <TypingHeader text="Hi there!" />}
+          {currentStep >= 1 && <TypingHeader text="My name is Matthew Filo." />}
+          {currentStep >= 2 && <TypingHeader text="Welcome to my Website!" />}
         </header>
         <Routes>
           <Route path="/" element={<Home />} />
