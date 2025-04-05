@@ -1,0 +1,28 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  height: 100vh; /* Ensure the Contact component takes the full height of the viewport */
+}
+
+.contact-button {
+  background-color: #8bc34a; /* Earthy greenish color */
+  color: #000; /* Black text color */
+  border: none;
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif; /* Modern font */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.contact-button:hover {
+  background-color: #689f38; /* Darker greenish color on hover */
+  color: #fff; /* White text color on hover */
+  transform: scale(1.1); /* Expand a little bit on hover */
+}
