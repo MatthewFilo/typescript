@@ -1,0 +1,8 @@
+.projects-container {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping to the next row */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Add spacing between the items */
+    overflow-x: auto; /* Allow horizontal scrolling if items overflow */
+    padding: 20px;
+  }

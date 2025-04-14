@@ -91,7 +91,7 @@ body {
 .skills-list {
   list-style: none;
   padding: 0;
-  margin: 5px 0;
+  margin-top: 5px;
 }
 
 .skills-list li {
