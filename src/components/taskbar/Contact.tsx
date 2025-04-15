@@ -11,12 +11,14 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <div className="Contact">
-      <h2>Contact</h2>
-      <p>If you would like to get in touch, please click the button below to email me.</p>
-      <button onClick={handleEmailClick} className="contact-button">Email Me</button>
-      <button onClick={handleLinkedInClick} className="contact-button">LinkedIn</button>
-    </div>
+    <section id="projects" className="App-section">
+      <div className="Contact">
+        <h2>Contact</h2>
+        <p>If you would like to get in touch, please click the button below to email me.</p>
+        <button onClick={handleEmailClick} className="contact-button">Email Me</button>
+        <button onClick={handleLinkedInClick} className="contact-button">LinkedIn</button>
+      </div>
+    </section>
   );
 };
 

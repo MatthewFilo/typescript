@@ -2,12 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* Center content vertically */
+  justify-content:flex-start; /* Center content vertically */
   text-align: center;
-  padding: 40px 20px; /* Add padding for spacing */
+  padding: 20px 20px; /* Add padding for spacing */
   margin: 0 auto; /* Center horizontally */
   box-sizing: border-box; /* Ensure padding is included in size calculation */
   min-height: auto; /* Remove unnecessary height */
+  width: 100%;
+  max-width: 800px;
 }
 
 .contact-button {
@@ -15,7 +17,7 @@
   color: #000; /* Black text color */
   border: none;
   padding: 10px 20px;
-  margin: 20px;
+  margin: 15px;
   font-size: 16px;
   font-family: 'Roboto', sans-serif; /* Modern font */
   border-radius: 4px; /* Rounded corners */
@@ -26,7 +28,7 @@
 .contact-button:hover {
   background-color: #689f38; /* Darker greenish color on hover */
   color: #fff; /* White text color on hover */
-  transform: scale(1.1); /* Expand a little bit on hover */
+  transform: scale(1.05); /* Expand a little bit on hover */
 }
 
 .social-icons {

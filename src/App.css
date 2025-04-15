@@ -99,6 +99,23 @@ body {
   color: #8bc34a; /* Earthy greenish color */
 }
 
+.skills-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap; /* Allow wrapping to the next row if needed */
+  justify-content: center; /* Center the items horizontally */
+  gap: 20px; /* Add spacing between the items */
+  padding: 20px;
+}
+
+#skills {
+  width: 100%; /* Make the section span the full width of the page */
+  max-width: none; /* Remove the max-width constraint */
+  margin: 0; /* Remove horizontal margins */
+  padding: 20px; /* Add padding for spacing */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
 .about-button {
   display: flex;
   flex-direction: row;
