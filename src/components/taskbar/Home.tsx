@@ -1,8 +1,11 @@
 import React from 'react';
+import Logo from '../../images/home_page/matthew_filo_face.png'
 
 function Home() {
   return (
-    <div></div>
+    <div>
+      <img src={Logo} alt="Matthew Filo" className="home-logo" />
+    </div>
   );
 }
 

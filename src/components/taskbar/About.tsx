@@ -14,9 +14,13 @@ function About() {
         <h2>About Me</h2>
         <p>
           Hi! I'm Matthew Filo, a passionate software engineer with experience in
-          building modern web applications. I specialize in TypeScript, React, and
-          other cutting-edge technologies. I love solving complex problems and
-          creating user-friendly solutions.
+          building web applications and working with Embedded Systems. 
+          I love solving complex problems and creating user-friendly solutions.
+          I have worked as a Software Engineer with companies
+          such as...
+          <p> <h3>Lockheed Martin</h3> Building F-35 On-Board and Helmet Displays and working on Platform Operations </p>
+          <p> <h3>Viasat Inc.</h3> Creating real-time communication Web Applications </p>
+          <p> <h3>NIWC Pacific</h3> Innovating Modern Solutions to outdated Testing Tools </p>
         </p>
         <div style={{ display: 'flex', gap: '30px' }}>
           <button onClick={() => window.open('https://www.linkedin.com/in/matthew-filo-a2b971187/', '_blank')} className="about-button">
