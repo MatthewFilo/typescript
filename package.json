@@ -1,8 +1,8 @@
 {
-  "name": "my-app",
+  "name": "typescript",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://matthewfilo.github.io/Typescript",
+  "homepage": "https://matthewfilo.github.io/typescript",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
