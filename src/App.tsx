@@ -8,8 +8,11 @@ import Contact from './components/taskbar/Contact';
 import WebsiteIntro from './components/taskbar/Website_Intro';
 
 function App() {
+  // Dynamically set basename based on environment
+  const basename = process.env.NODE_ENV === 'production' ? '/typescript' : '/';
+
   return (
-    <Router>
+    <Router basename={basename}>
       <div className="App">
         <nav className="App-nav">
           <ul>
