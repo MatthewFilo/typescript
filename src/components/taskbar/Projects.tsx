@@ -5,6 +5,7 @@ import Linkshub from '../../images/Projects/Linkshub.png';
 import VirusContainment from '../../images/Projects/Virus_Containment.png';
 import FingerDetection from '../../images/Projects/finger_detection.png';
 import AStar from '../../images/Projects/AStar.png';
+import Discord_Bot from '../../images/Projects/discord_bot.png';
 import './Projects.css';
 
 
@@ -24,15 +25,20 @@ function Projects() {
           description="Video Game built using Unity and C#. Arcade-Shooter video game where player must reach round 10 fighting enemies that spawn in with creative movement patterns."
           link="https://github.com/MatthewFilo/Flappy-Bird-Game" />
         <ShowcaseProjectTemplate
-          image={FingerDetection}
-          title="Finger Detector (WIP)"
-          description="Built using Python and OpenCV, I built a finger detection program that can detect the number of fingers in a frame."
-          link="https://github.com/MatthewFilo/Finger_Detection/tree/master" />
-        <ShowcaseProjectTemplate
           image={AStar}
           title="A* Pathfinding Algorithm"
           description="Built using Python and Pygame, I built an interactive pathfinding algorithm that can find the shortest path from point A to point B."
           link="https://github.com/MatthewFilo/A-Star-Pathfinding-Algorithm" />
+        <ShowcaseProjectTemplate
+          image={FingerDetection}
+          title="Finger Detector (W.I.P)"
+          description="Built using Python and OpenCV, I built a finger detection program that can detect the number of fingers in a frame."
+          link="https://github.com/MatthewFilo/Finger_Detection/tree/master" />
+        <ShowcaseProjectTemplate
+          image={Discord_Bot}
+          title="Discord Bot (W.I.P)"
+          description="Built using Python and Discord.py library. Meant to be a fun bot that can play music, games, and more."
+          link="https://github.com/MatthewFilo/Discord_Bot" />
       </div>
     </section><section id="projects" className="App-section" style={{ maxWidth: '100%'}}>
         <h2>Open Source Contributions</h2>
