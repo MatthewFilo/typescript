@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/typescript/static/css/main.48222d84.css",
-    "main.js": "/typescript/static/js/main.7224d9b2.js",
+    "main.js": "/typescript/static/js/main.6cd37fa8.js",
     "static/js/453.2b34cbe0.chunk.js": "/typescript/static/js/453.2b34cbe0.chunk.js",
     "static/media/matthew_filo_face.png": "/typescript/static/media/matthew_filo_face.7b9d4f7683721cece2ea.png",
     "static/media/Cpp.png": "/typescript/static/media/Cpp.1a6b6f87d31b6393b231.png",
     "static/media/finger_detection.png": "/typescript/static/media/finger_detection.ae438cd4bde25e09d368.png",
     "static/media/Flappy_Bird_icon.png": "/typescript/static/media/Flappy_Bird_icon.ad015349345381607319.png",
+    "static/media/discord_bot.png": "/typescript/static/media/discord_bot.17e5a4459b33b23e6575.png",
     "static/media/Python.png": "/typescript/static/media/Python.eb52801ea8420dff8315.png",
     "static/media/AStar.png": "/typescript/static/media/AStar.a3f47768b39e8bbdb4e4.png",
     "static/media/Typescript.webp": "/typescript/static/media/Typescript.b4afd72465f974d9487f.webp",
     "static/media/Csharp.svg": "/typescript/static/media/Csharp.263f79c821a39b0f21f400bc720b47d0.svg",
     "index.html": "/typescript/index.html",
     "main.48222d84.css.map": "/typescript/static/css/main.48222d84.css.map",
-    "main.7224d9b2.js.map": "/typescript/static/js/main.7224d9b2.js.map",
+    "main.6cd37fa8.js.map": "/typescript/static/js/main.6cd37fa8.js.map",
     "453.2b34cbe0.chunk.js.map": "/typescript/static/js/453.2b34cbe0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48222d84.css",
-    "static/js/main.7224d9b2.js"
+    "static/js/main.6cd37fa8.js"
   ]
 }
