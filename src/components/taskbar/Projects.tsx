@@ -23,7 +23,7 @@ function Projects() {
           image={VirusContainment}
           title="Virus Containment"
           description="Video Game built using Unity and C#. Arcade-Shooter video game where player must reach round 10 fighting enemies that spawn in with creative movement patterns."
-          link="https://github.com/MatthewFilo/Flappy-Bird-Game" />
+          link="http://github.com/MatthewFilo/Virus_Containment" />
         <ShowcaseProjectTemplate
           image={AStar}
           title="A* Pathfinding Algorithm"
