@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <rect width="120" height="120" rx="16" fill="#07132b"/>
+  <!-- Blue square (official TS logo style) -->
+  <rect x="18" y="18" width="84" height="84" rx="10" fill="#3178c6"/>
+  <!-- T crossbar -->
+  <rect x="28" y="40" width="44" height="9" rx="2" fill="white"/>
+  <!-- T stem -->
+  <rect x="46" y="40" width="9" height="40" rx="2" fill="white"/>
+  <!-- S shape -->
+  <path d="M76,56 C76,52 73,50 68,50 C63,50 60,52 60,56 C60,60 63,61 68,63 C73,65 77,67 77,72 C77,77 73,80 67,80 C61,80 57,77 57,72" fill="none" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <!-- Label -->
+  <text x="60" y="114" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="700" fill="#60a5fa" text-anchor="middle" letter-spacing="1">TYPESCRIPT</text>
+</svg>
