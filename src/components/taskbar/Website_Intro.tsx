@@ -1,20 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './WebsiteIntro.css';
 
 function WebsiteIntro() {
-  const [currentStep, setCurrentStep] = useState(0);
-
-  useEffect(() => {
-    if (currentStep < 2) {
-      const timer = setTimeout(() => setCurrentStep(currentStep + 1), 1700); // Adjust the delay as needed
-      return () => clearTimeout(timer);
-    }
-  }, [currentStep]);
-
   return (
     <header className="WebsiteIntro">
-      {currentStep >= 0 && <h1 className="fade-in">Hi, I'm Matthew Filo,</h1>}
-      {currentStep >= 1 && <h1 className="fade-in">Welcome to my Website!</h1>}
+      <h1 className="fade-in">Hi, I'm Matthew Filo,</h1>
+      <h1 className="fade-in-delay">Software Engineer</h1>
+      <p className="hero-tagline fade-in-tagline">
+        Building elegant solutions to complex problems
+      </p>
     </header>
   );
 }

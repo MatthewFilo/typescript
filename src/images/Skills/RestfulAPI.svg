@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <rect width="120" height="120" rx="16" fill="#06180e"/>
+  <!-- Left node -->
+  <circle cx="26" cy="54" r="10" fill="none" stroke="#34d399" stroke-width="2.5"/>
+  <circle cx="26" cy="54" r="4" fill="#34d399"/>
+  <!-- Right node -->
+  <circle cx="94" cy="54" r="10" fill="none" stroke="#34d399" stroke-width="2.5"/>
+  <circle cx="94" cy="54" r="4" fill="#34d399"/>
+  <!-- Connecting arrow -->
+  <line x1="37" y1="54" x2="82" y2="54" stroke="#34d399" stroke-width="2.5" stroke-dasharray="5 3"/>
+  <polygon points="83,49 94,54 83,59" fill="#34d399"/>
+  <!-- GET pill -->
+  <rect x="43" y="40" width="34" height="11" rx="5.5" fill="rgba(52,211,153,0.15)" stroke="#34d399" stroke-width="1.5"/>
+  <text x="60" y="49.5" font-family="'Inter', system-ui, sans-serif" font-size="8" font-weight="700" fill="#34d399" text-anchor="middle">GET</text>
+  <!-- POST pill -->
+  <rect x="38" y="63" width="44" height="11" rx="5.5" fill="rgba(52,211,153,0.1)" stroke="rgba(52,211,153,0.5)" stroke-width="1.5"/>
+  <text x="60" y="72.5" font-family="'Inter', system-ui, sans-serif" font-size="8" font-weight="600" fill="rgba(52,211,153,0.7)" text-anchor="middle">POST</text>
+  <!-- Label -->
+  <text x="60" y="106" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="700" fill="#34d399" text-anchor="middle" letter-spacing="1">REST API</text>
+</svg>

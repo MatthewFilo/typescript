@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <rect width="120" height="120" rx="16" fill="#0d0d18"/>
+  <!-- Blue snake body (top C-shape) -->
+  <path d="M58,20 L72,20 Q88,20 88,36 L88,52 Q88,62 78,62 L60,62 L60,54 L70,54 Q78,54 78,52 L78,36 Q78,30 72,30 L58,30 Q52,30 52,36 L52,42 L42,42 L42,36 Q42,20 58,20 Z" fill="#4b8bbe"/>
+  <!-- Yellow snake body (bottom C-shape) -->
+  <path d="M62,100 L48,100 Q32,100 32,84 L32,68 Q32,58 42,58 L60,58 L60,66 L50,66 Q42,66 42,68 L42,84 Q42,90 48,90 L62,90 Q68,90 68,84 L68,78 L78,78 L78,84 Q78,100 62,100 Z" fill="#f7c948"/>
+  <!-- Blue snake eye -->
+  <circle cx="80" cy="26" r="4" fill="white"/>
+  <circle cx="80" cy="26" r="2" fill="#0d0d18"/>
+  <!-- Yellow snake eye -->
+  <circle cx="40" cy="94" r="4" fill="white"/>
+  <circle cx="40" cy="94" r="2" fill="#0d0d18"/>
+  <!-- Label -->
+  <text x="60" y="116" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="700" fill="#f7c948" text-anchor="middle" letter-spacing="1">PYTHON</text>
+</svg>
